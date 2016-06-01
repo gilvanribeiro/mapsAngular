@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "ordem":1,
+    "dia":"",
+    "coords":{
+    "latitude": -19.93585824,
+    "longitude": -43.93768262},
+    "title": "Ordem 1",
+    "icon":"marker/g.png",
+    "templateUrl":"template1.html",
+    "options":{
+      "labelContent": "<b>Ordem 1</b>"
+    }
+  },
+  {
+    "id": 2,
+    "ordem":2,
+    "dia":"",
+    "coords":{
+    "latitude": -19.9188985,
+    "longitude": -43.92714053},
+    "title": "Ordem 2",
+    "icon":"marker/g.png",
+    "templateUrl":"template2.html",
+    "options":{
+      "labelContent": "<b>Ordem 2</b>"
+    }
+  },
+  {
+    "id": 3,
+    "ordem":3,
+    "dia":"",
+    "coords":{
+    "latitude": -19.91945833,
+    "longitude": -43.94265577},
+    "title": "Ordem 3",
+    "icon":"marker/g.png",
+    "templateUrl":"template3.html",
+    "options":{
+      "labelContent": "<b>Ordem 3</b>"
+    }
+  },
+  {
+    "id": 4,
+    "ordem":4,
+    "dia":"",
+    "coords":{
+    "latitude": -19.93103269,
+    "longitude": -43.95284414},
+    "title": "Ordem 4",
+    "icon":"marker/g.png",
+    "templateUrl":"template4.html",
+    "options":{
+      "labelContent": "<b>Ordem 4</b>"
+    }
+  },
+  {
+    "id": 5,
+    "ordem":5,
+    "dia":"",
+    "coords":{
+    "latitude": -19.94100764,
+    "longitude": -43.94291461},
+    "title": "Ordem 5",
+    "icon":"marker/g.png",
+    "templateUrl":"template5.html",
+    "options":{
+      "labelContent": "<b>Ordem 5</b>"
+    }
+  },
+  {
+    "id": 6,
+    "ordem":6,
+    "dia":"",
+    "coords":{
+    "latitude": -19.9524865,
+    "longitude": -43.9484949},
+    "title": "Ordem 6",
+    "icon":"marker/g.png",
+    "templateUrl":"template6.html",
+    "options":{
+      "labelContent": "<b>Ordem 6</b>"
+    }
+  },
+  {
+    "id": 99,
+    "ordem":7,
+    "dia":"",
+    "coords":{
+    "latitude": -19.8371165,
+    "longitude": -43.9353495},
+    "title": "Ordem 7",
+    "icon":"marker/g.png",
+    "templateUrl":"template7.html",
+    "options":{
+      "labelContent": "<b>Ordem 7</b>"
+    }
+  }
+]

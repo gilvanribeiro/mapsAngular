@@ -1,0 +1,23 @@
+{
+  "name": "mapsAngular",
+  "version": "0.0.0",
+  "authors": [
+    "gilvan.ribeiro <gilvanwpr@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-google-maps": "~2.2.1",
+    "bootstrap": "~3.3.6",
+    "lodash": "3.10.1",
+    "restangular": "~1.5.1"
+  }
+}

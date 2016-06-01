@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awsome/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="treta">
+<div class="col-lg-12 col-md-12">
+</div>
+<div class="row col-lg-4 col-sm-4 col-md-4">
+    <button class="btn btn-danger" ng-click="reset()">Reset</button>
+</div>
+<div class="container">
+
+
+        <li ng-repeat="x in markers">
+            <label> {{ x.texto }} / {{x.rota}}</label>
+            <select  ng-model="markers.rota" ng-change="change()">
+                <option value="Novo Glória">Novo Glória</option>
+                <option value="Padre Eustáquio">Padre Eustáquio</option>
+                <option value="Estadio Governador">Estadio Governador</option>
+                <option value="Carvalho de Brito">Carvalho de Brito</option>
+            </select>
+        </li>
+
+</div>
+<div class="col-lg-12 col-sm-12 col-md-12">
+    <ui-gmap-google-map center='map.center' zoom='map.zoom' control="map.control" draggable="true" >
+        <ui-gmap-markers fit="'true'" models="markers" coords="'coords'" idKey="id" icon="'icon'"  doCluster="false" options="'options'" events="option.events">
+            <ui-gmap-windows
+                    show="map.window.show"
+                    ng-cloak closeClick="closeClick()">
+                <div>
+                    <div ng-non-bindable>
+                        {{rota}}
+                    </div>
+                    <foo dados="markers" id="markerid">
+
+                    </foo>
+                </div>
+            </ui-gmap-windows>
+        </ui-gmap-markers>
+    </ui-gmap-google-map>
+
+</div>
+
+<div id="directionsList" ng-show="showList" class="panel panel-primary"></div>
+</body>
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="vendor/lodash/lodash.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.underscore.js"></script>
+<script src="vendor/angular/angular.min.js"></script>
+<script src="vendor/angular-google-maps/dist/angular-google-maps.min.js"></script>
+<script src="vendor/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
+<script src='http://maps.google.cn/maps/api/js'></script>
+<script src="app.js"></script>
+<style>
+    .angular-google-map-container {
+        height: 600px;
+    }
+
+    #searchbox {
+        width: 300px;
+    }
+
+    #div {
+        margin-top: 1%;
+    }
+
+    #mode {
+        font-family: 'FontAwesome', 'Arial';
+        height: 50px;
+        font-size: 40px;
+    }
+    b{
+        font-weight: 900;
+        font-size: 18px;
+        color: blue;
+    }
+    .rota{
+        border: 1px solid;
+        background: rgba(220, 220, 220, 0.75);
+    }
+</style>
+</html>

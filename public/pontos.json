@@ -1,0 +1,104 @@
+[
+  {
+    "icon": "marker/g.png",
+    "id": 1,
+    "latitude": -19.212355602107472,
+    "longitude": -44.20234468749999,
+    "title": "Conteúdo do InfoBox 1"
+  },
+  {
+    "icon": "marker/g.png",
+    "id": 2,
+    "latitude": -22.618827234831404,
+    "longitude": -42.57636812499999,
+    "title": "Conteúdo do InfoBox 2"
+  },
+  {
+    "icon": "marker/g.png",
+    "id": 3,
+    "latitude": -22.89997194865705,
+    "longitude": -47.02999999999997,
+    "title": "Conteúdo do InfoBox 3"
+  },
+  {
+    "icon": "marker/png.png",
+    "id": 4,
+    "latitude": -17.082777073226872,
+    "longitude": -47.10273531249999,
+    "title": "Conteúdo do InfoBox 4"
+  },
+  {
+    "icon": "marker/png.png",
+    "id": 5,
+    "latitude": -22.88936803353243,
+    "longitude": -47.03139838867173,
+    "title": "Conteúdo do InfoBox 5"
+  },
+  {
+    "icon": "marker/png.png",
+    "id": 6,
+    "latitude": -22.88794472694071,
+    "longitude": -47.08066520385728,
+    "title": "Conteúdo do InfoBox 6"
+  },
+  {
+    "icon": "marker/png.png",
+    "id": 7,
+    "latitude": -22.899488894308515,
+    "longitude": -47.06023749999986,
+    "title": "Conteúdo do InfoBox 7"
+  },
+  {
+    "icon": "marker/png.png",
+    "id": 8,
+    "latitude": -22.882132704079144,
+    "longitude": -47.060530090490715,
+    "title": "Conteúdo do InfoBox 8"
+  },
+  {
+    "icon": "marker/png.png",
+    "id": 9,
+    "latitude": -22.88045235311875,
+    "longitude": -47.05914315872184,
+    "title": "Conteúdo do InfoBox 9"
+  },
+  {
+    "icon": "marker/png.png",
+    "id": 10,
+    "latitude": -22.87877194865705,
+    "longitude": -47.05783424072257,
+    "title": "Conteúdo do InfoBox 10"
+  },
+
+  {
+    "icon": "marker/png.png",
+    "id": 11,
+    "latitude": -22.89997194865705,
+    "longitude": -47.06783424072257,
+    "title": "Conteúdo do InfoBox 11"
+  },
+
+  {
+    "icon": "marker/png.png",
+    "id": 12,
+    "latitude": -22.89997194865705,
+    "longitude": -47.04783424072257,
+    "title": "Conteúdo do InfoBox 12"
+  },
+
+  {
+    "icon": "marker/png.png",
+    "id": 13,
+    "latitude": -22.89997194865705,
+    "longitude": -47.03783424072257,
+    "title": "Conteúdo do InfoBox 13"
+  },
+
+  {
+    "icon": "marker/png.png",
+    "id": 14,
+    "latitude": -22.89997194865705,
+    "longitude": -47.02783424072257,
+    "title": "Conteúdo do InfoBox 14"
+  }
+]

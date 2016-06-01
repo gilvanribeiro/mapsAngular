@@ -1,0 +1,14 @@
+/* Put your css in here */
+
+.angular-google-map-container {
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.panel-primary {
+    padding: 15px;
+}
+.marker-labels {
+    font-size: 18px;
+    font-weight: bold;
+}

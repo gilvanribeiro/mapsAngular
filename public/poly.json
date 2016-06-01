@@ -1,0 +1,229 @@
+{
+  "rotas": [
+    {
+      "latitude": -19.925852700791186,
+      "longitude": -44.023513308476595,
+      "rota": "Novo Glória",
+      "id":"1",
+      "icon" : "https://chart.googleapis.com/chart?chst=d_map_xpin_icon&chld=pin_star|car-dealer|00FFFF|FF0000",
+      "texto":"GOOGLE"
+    },
+    {
+      "latitude": -19.91905989179087,
+      "longitude": -44.018292721162084,
+      "rota": "Novo Glória",
+      "id":"2",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"FAT SHOP"
+    },
+    {
+      "latitude": -19.911388559008603,
+      "longitude": -44.012178627666,
+      "rota": "Novo Glória",
+      "id":"3",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"CASAS BHAIA"
+    },
+    {
+      "latitude": -19.916023685378676,
+      "longitude": -44.02803182310549,
+      "rota": "Novo Glória",
+      "id":"4",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"PERNAMBUCO"
+    },
+    {
+      "latitude": -19.92406295541008,
+      "longitude": -44.032521848769534,
+      "rota": "Novo ",
+      "id":"5",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"SHOPPING BH"
+    },
+    {
+      "latitude": -19.901973508091242,
+      "longitude": -44.01681612802736,
+      "rota": "Novo ",
+      "id":"6",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"SHOPPING PAMPULHA"
+    },
+    {
+      "latitude": -19.908795284058954,
+      "longitude": -44.02804664355472,
+      "rota": "Novo Glória",
+      "id":"7",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_icon&chld=flag|ADDE63",
+      "texto":"SHOPPING MINAS"
+    },
+    {
+      "latitude": -19.91641140959976,
+      "longitude": -43.963603487919954,
+      "rota": "Padre Eustáquio",
+      "id":"8",
+      "icon" : "https://chart.googleapis.com/chart?chst=d_map_xpin_icon&chld=pin_star|car-dealer|00FFFF|FF0000",
+      "texto":"OIAPOQUE"
+    },
+    {
+      "latitude": -19.917930145795513,
+      "longitude": -43.97863894308591,
+      "rota": "Padre Eustáquio",
+      "id":"9",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"AMERICANAS"
+    },
+    {
+      "latitude": -19.910904359655273,
+      "longitude": -43.97252484958983,
+      "rota": "Padre Eustáquio",
+      "id":"10",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"ADIDDAS"
+    },
+    {
+      "latitude": -19.916427171882457,
+      "longitude": -43.972241875595785,
+      "rota": "Padre Eustáquio",
+      "id":"4",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"NIKE"
+    },
+    {
+      "latitude": -19.920028238894876,
+      "longitude": -43.97364199647461,
+      "rota": "Padre Eustáquio",
+      "id":"11",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"FOOTWORK"
+    },
+    {
+      "latitude": -19.913191045815907,
+      "longitude": -43.96712015939943,
+      "rota": "Padre Eustáquio",
+      "id":"6",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"DEL REY"
+    },
+    {
+      "latitude": -19.914040768045513,
+      "longitude": -43.976376569091826,
+      "rota": "Padre Eustáquio",
+      "id":"7",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_icon&chld=flag|ADDE63",
+      "texto":"SHOPPING BOULE"
+    },
+    {
+      "latitude": -19.867097735451612,
+      "longitude": -43.946008196782316,
+      "rota": "Estadio Governador",
+      "id":"12",
+      "icon" : "https://chart.googleapis.com/chart?chst=d_map_xpin_icon&chld=pin_star|car-dealer|00FFFF|FF0000",
+      "texto":"ALÁ"
+
+    },
+    {
+      "latitude": -19.87386375976279,
+      "longitude": -43.96421938742185,
+      "rota": "Estadio Governador",
+      "id":"13",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"CHICAGO"
+    },
+    {
+      "latitude": -19.857471934623472,
+      "longitude": -43.97183820408202,
+      "rota": "Estadio Governador",
+      "id":"14",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"BRAZIL"
+    },
+    {
+      "latitude": -19.883983572449015,
+      "longitude": -43.98769139952162,
+      "rota": "Estadio Governador",
+      "id":"15",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"LOURDES"
+    },
+    {
+      "latitude": -19.89145950183633,
+      "longitude": -43.95544589051758,
+      "rota": "Estadio Governador",
+      "id":"16",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"AMAZONIA"
+    },
+    {
+      "latitude": -19.8602437479617,
+      "longitude": -43.95132731271974,
+      "rota": "Estadio Governador",
+      "id":"17",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"CONTRA TRÊS"
+    },
+    {
+      "latitude": -19.870296182536407,
+      "longitude": -43.984616315185576,
+      "rota": "Estadio Governador",
+      "id":"18",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_icon&chld=flag|ADDE63",
+      "texto":"RICARDO ELETRO"
+    },
+    {
+      "latitude": -19.923270523320348,
+      "longitude": -43.87871693701675,
+      "rota": "Carvalho de Brito",
+      "id":"19",
+      "icon" : "https://chart.googleapis.com/chart?chst=d_map_xpin_icon&chld=pin_star|car-dealer|00FFFF|FF0000",
+      "texto":"REDES"
+    },
+    {
+      "latitude": -19.923270523320348,
+      "longitude": -43.884911831269505,
+      "rota": "Carvalho de Brito",
+      "id":"20",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"EPA"
+    },
+    {
+      "latitude": -19.86845045932081,
+      "longitude": -43.86746808689452,
+      "rota": "Carvalho de Brito",
+      "id":"21",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"MAMRT PLUS"
+    },
+    {
+      "latitude": -19.88559783904205,
+      "longitude": -43.832509514756,
+      "rota": "Carvalho de Brito",
+      "id":"22",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"SAMSUNG"
+    },
+    {
+      "latitude": -19.88855391765768,
+      "longitude": -43.86498034486323,
+      "rota": "Carvalho de Brito",
+      "id":"23",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"O DIA"
+    },
+    {
+      "latitude": -19.90673500614348,
+      "longitude": -43.846613872778335,
+      "rota": "Carvalho de Brito",
+      "id":"24",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=  |FF0000|000000",
+      "texto":"ABC"
+    },
+    {
+      "latitude": -19.93034100772093,
+      "longitude": -43.85175040942386,
+      "rota": "Carvalho de Brito",
+      "id":"25",
+      "icon": "https://chart.googleapis.com/chart?chst=d_map_pin_icon&chld=flag|ADDE63",
+      "texto":"CBS"
+    }
+  ]
+}

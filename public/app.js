@@ -8,16 +8,12 @@ myModule.config(function (uiGmapGoogleMapApiProvider) {
     });
 });
 
-    myModule.controller('treta', function ($scope, $log, $timeout, $http, uiGmapGoogleMapApi,mySharedService) {
+    myModule.controller('treta', function ($scope, $log, $timeout, $http, uiGmapGoogleMapApi) {
 
         $scope.markers = '';
         $http.get('poly.json').success(function (data) {
             $scope.rotasall = data;
             generateRequests(data);
-            mySharedService.prepForBroadcast(data);
-            $scope.$on('handleBroadcast',function () {
-                mySharedService.message;
-            });
             $scope.markers = testando(data);
         });
 
@@ -192,60 +188,5 @@ myModule.config(function (uiGmapGoogleMapApiProvider) {
             }
         }
     });
-myModule.directive('faa',function () {
-    return {
-        replace:true,
-        scope:{
-            recebe:'='
-        },
-        transclude:true,
-        template:'<div>{{recebe}}<input ng-model="x" type="text"> {{x}}</div>'
-    }
-});
 
-myModule.directive('foo',function () {
-    return {
-        restrict: 'E',
-        replace:false,
-        transclude:false,
-        scope:{
-            dados:'=',
-            id:'='
-        },
-        controller:function ($scope) {
-            $scope.rotas = {};
-            $scope.$watch('id',function () {
-                if(!$scope.id)
-                    return;
-                  $scope.dados.filter(function (data) {
-                    if(data.id == $scope.id)
-                        $scope.clickrota =  data;
-                });
-            });
-        },
-        template:
-        '<div ><div class="ng-binding"><b>{{clickrota}}</b></div>'
-        +'<b><input type="text" ng-model="clickrota.rota" value="{{clickrota.rota}}">{{clickrota.rota}}</b>'
-        +'<select  ng-model="clickrota.rota">'
-            +'<option value="AAAA">AAAA</option>'
-            +'<option  value="BBBBB">BBBBB</option>'
-            +'<option value="CCCC">CCCC</option>'
-        +'</select>'
-        +'<hr style="border-top: 1px solid #A21414;">'
-        +'</div>'
-    }
-});
 
-myModule.factory('mySharedService', function ($rootScope) {
-    var sharedService = {};
-    sharedService.message = '';
-    sharedService.prepForBroadcast = function (data) {
-        this.message = data;
-        this.broadCastItem();
-    };
-
-    sharedService.broadCastItem = function () {
-        $rootScope.$broadcast('handleBroadcast');
-    }
-    return sharedService;
-});

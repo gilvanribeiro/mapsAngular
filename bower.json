@@ -1,9 +1,11 @@
 {
-  "name": "mapsangular",
-  "version": "0.0.0",
+  "name": "map",
+  "homepage": "https://github.com/gilvanribeiro/mapsAngular",
   "authors": [
     "gilvan.ribeiro <gilvanwpr@hotmail.com>"
   ],
+  "description": "",
+  "main": "",
   "license": "MIT",
   "ignore": [
     "**/.*",

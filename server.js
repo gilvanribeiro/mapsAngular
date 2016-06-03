@@ -4,7 +4,7 @@ var app = express();
 var bodyParser = require('body-parser');
 
 // Or you can simply use a connection uri
-var sequelize = new DataTypes('postgres://postgres:123456@localhost:5432/mapAngular');
+var sequelize = new DataTypes('postgres://awllirsqzuxaql:KBjwcLzN4KhgHy8L35dyLa5Pkj@ec2-54-235-123-254.compute-1.amazonaws.com:5432/dfctvdqptbpmot');
 app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/public'));
